@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPASBot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <header>
+             <h1>
+                EPASBot IA | 
+                <em style="font-size: 0.5em;">Etapa Productiva Aprendices Sena</em>
+            </h1>
+        </header>
+
+        <div class="chat-box" id="chat-box">
+            <!-- Los mensajes del chat aparecerán aquí -->
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí...">
+            <button id="send-btn">Enviar</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+123456789|Juan Perez|203|Agricultura
+987654321|Maria Garcia|202|Gestion Redes Datos
+77177153|Carlos Ruiz|203|Agricultura
+77177152|Oljer Murgas|203|Gestion Redes Datos
+80212740|Pedro Fabian Torres|203|Mantenimiento Equipos de Computos
